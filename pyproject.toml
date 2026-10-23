@@ -12,6 +12,6 @@ dependencies = [
     "numpy",
     "matplotlib"
 ]
-
-[tool.setuptools]
+[tool.setuptools.packages.find]
+where = ["."]
 packages = ["gradebook"]

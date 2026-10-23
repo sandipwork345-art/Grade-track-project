@@ -30,29 +30,12 @@ grade_tracker/
 
 You need Python 3.8 or newer.
 
-```bash
-git clone https://github.com/<your-username>/grade_tracker.git
-cd grade_tracker
-pip install -e .
-```
+
 
 This installs the package together with NumPy and Matplotlib. The demo also works
 without installing the package, as long as NumPy and Matplotlib are installed
 (`pip install numpy matplotlib`).
 
-## The data file
-
-`data/grades.csv` has one line per student. The first line holds the column names:
-
-```
-student,maths,physics,english
-Anna,78,82,65
-Ben,55,60,72
-```
-
-The first column is the student's name; every other column is a subject with marks
-from 0 to 100. You can add students or subjects, or use your own file in the same format.
-The marks in the example file are made up.
 
 ## How to use the main functions
 
